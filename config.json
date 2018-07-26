@@ -1,0 +1,30 @@
+{
+    "name": "Epoch Action Tag",
+    "namespace": "EpochActionTag\\ExternalModule",
+    "description": "Provides a new action tag - @NOW-EPOCH - which writes the current <a href=\"https://en.wikipedia.org/wiki/Unix_time\">Epoch</a> time (aka Unix time) into a field. <strong><a href=\"https://github.com/ctsit/epoch_action_tag\">See full documentation here</a></strong>.",
+    "permissions": [
+        "redcap_survey_page_top",
+        "redcap_data_entry_form_top",
+        "redcap_every_page_top"
+    ],
+    "authors": [
+        {
+            "name": "Philip Chase",
+            "email": "pbc@ufl.edu",
+            "institution": "University of Florida - CTSI"
+        },
+        {
+            "name": "Taryn Stoffs",
+            "email": "tls@ufl.edu",
+            "institution": "University of Florida - CTSI"
+        },
+        {
+            "name": "Tiago Bember",
+            "email": "tbembersimeao@ufl.edu",
+            "institution": "University of Florida - CTSI"
+        }
+    ],
+    "compatibility": {
+        "redcap-version-min": "8.0.3"
+    }
+}
